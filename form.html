@@ -1,22 +1,9 @@
 <html>
 <body>
-<h2>Enter your details</h2>
-<form>
- <label for="fname">First name:</label><br>
- <input type="text" id="fname" name="fname"><br>
- <label for="fname">Phone numner:</label><br>
- <input type="text" id="number" name="fname"><br>
-<label for="courses">courses</label><br>
-<input list="radio" name="courses"><br>
-<datalist id="radio">
-<option value="Bachelors">
-<option value="Masters">
-</datalist><br>
-<input type="submit"><br>
-<label for="descri">description:</label><br>
-<input type="text" id="description" name=""><br>
-<label for="subjet interests">sub interests</label><br>
-<input type="checkbox" id="sub interests"><br>
+<form action="/action_page.php" method="post">
+  <input type="text" name="fname" required>
+  <input type="submit" value="Submit">
 </form>
-</body>
-</html>
+<p>If you click submit, without filling out the text field,
+your browser will display an error message.</p>
+</body></html>
