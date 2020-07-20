@@ -1,0 +1,5 @@
+1.First we need to insert a drop down to select language with englsih and hindi as options.
+2.And then with another dropdown to select sentence
+3.After selecting sentence a table with seperate words in the sentence with seperate drop downs to select the parts of speech.
+4.Then with submit button. After clicking submit we need to check evaey word.
+5.If every selection is correct then it display it as Right otherwise Wrong.
